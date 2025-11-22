@@ -1,0 +1,22 @@
+mode: "prod" # dev or prod
+
+http:
+  host: ""
+  port: 8080
+
+database:
+  host: "localhost"
+  database: "db_goSocial"
+  user: "root"
+  password: "root"
+  port: 5433
+  dialTimeout: "5s"
+  timeout: "10s"
+  dialRetry: 12
+  maxConn: 10
+  idleConn: 5
+  location: "Asia/Tehran"
+
+logger:
+  level: 'debug' # debug info warn error fatal
+
